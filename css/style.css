@@ -10,10 +10,13 @@ h1 {
 	padding: 10px;
 }
 
-/*Header 2 is 32px, with grey (#808080) drop shadow (I would use text-shadow property) 
-that is offset 4px horizontally, 4px vertically, and 2px blur*/
-
 h2 {
 	font-size: 32px;
 	text-shadow: 4px 4px 2px #808080;
+}
+
+/*Paragraphs use 24px font and have 15px padding on the top only*/
+p {
+	font-size: 24px;
+	padding-top: 15px;
 }
