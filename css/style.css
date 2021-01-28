@@ -4,3 +4,10 @@ body {
   color: #FFFFFF;
 }
 
+/*Header 1 is 64px, centered, and has padding of 10px*/
+
+h1 {
+	font-size: 64px;
+	text-align: center;
+	padding: 10px;
+}
