@@ -15,8 +15,21 @@ h2 {
 	text-shadow: 4px 4px 2px #808080;
 }
 
-/*Paragraphs use 24px font and have 15px padding on the top only*/
 p {
 	font-size: 24px;
 	padding-top: 15px;
+}
+
+/*Images match the following styles:
+All images are on their own line
+All images are centered 
+All images are 550px wide with proper aspect ratio (they are not warped or stretched)
+*/
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px
+    height: auto;
 }
