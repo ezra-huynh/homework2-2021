@@ -30,6 +30,14 @@ img {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 550px
+    width: 550px;
     height: auto;
+}
+
+/*All divs must be at least 150px tall (but will automatically be taller if needed) 
+with 25px padding on all sides.*/
+
+div {
+	min-height: 150px;
+	padding: 25px;
 }
