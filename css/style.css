@@ -83,6 +83,7 @@ with 10px padding on the bottom and right only. (No padding on the left or top.)
 
 footer p {
 	text-align: center;
+	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right: 10px;
 }
