@@ -42,7 +42,38 @@ div {
 	padding: 25px;
 }
 
-/*Red div has the following styles:
-Background color is hexadecimal value for red
-Text is aligned on the right side 
-*/
+
+#red {
+	background-color: #FF0000;
+	text-align: right;
+}
+
+#blue {
+	background-color: #0000FF;
+	text-align: left;
+}
+
+#green {
+	background-color: #008000;
+	text-align: left;
+}
+
+/*Yellow div has the following styles
+a.     Background color is hexadecimal value for yellow 
+b.     Text is aligned on the right side
+c.     Header 2 and paragraph text is black
+d.     Header 2 drop shadow is #c7e2c7 with the same parameters as above*/
+
+#yellow {
+	background-color: #FFFF00;
+	text-align: right;
+}
+
+#yellow h2 {
+	color: #000000;
+	text-shadow: 4px 4px 2px #c7e2c7;
+}
+
+#yellow p {
+	color: #000000;
+}
